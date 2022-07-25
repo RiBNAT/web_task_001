@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    background-color: rgb(60, 59, 59);
+    color: orange;
+    height: 5rem;
+    padding: 2rem;
+}
+
+.header ul li h1 {
+    margin-right: 20rem;
+}
+
+.header li {
+    list-style: none;
+    display: inline;
+    padding: .5rem;
+    text-align: justify;
+    margin: auto;
+}
+
+hr {
+    border: 1px dotted;
+}
+
+.section2 .row {
+    background-color: orange;
+    height: 30rem;
+    width: 100%;
+    text-align: center;
+
+}
+
+.body,
+.footer {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 2rem;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    box-sizing: border-box;
+}
+
+.card {
+    float: left;
+    width: 30%;
+    padding: 2rem;
+    height: 350px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid red;
+    margin-left: 2.5%;
+    background-color: orange;
+}
+
+button {
+    padding: 5px;
+    font-size: larger;
+    margin-top: 20px;
+}
+
+a {
+    color: rgb(14, 15, 16);
+}
+Footer
